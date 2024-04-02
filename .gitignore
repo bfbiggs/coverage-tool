@@ -46,6 +46,7 @@ playwright/.cache/
 junit.xml
 test-report.xml
 coverage-report-baseline/*
+!.gitkeep
 coverage-report-pr/*
 index.html
 
