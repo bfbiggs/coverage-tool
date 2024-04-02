@@ -1,0 +1,17 @@
+{
+  "name": "coverage-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "compare": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-diff": "^1.0.6",
+    "open": "^10.1.0"
+  }
+}

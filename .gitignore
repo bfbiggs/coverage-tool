@@ -1,0 +1,59 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# caches
+*.tsbuildinfo
+.npm
+.eslintcache
+.stylelintcache
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Build directory
+dist/
+apps/resi-test-app/public/loader.js
+apps/resi-test-app/public/script.js
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_*
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing directories/files
+coverage/
+cypress/videos/
+cypress/screenshots/
+test-results
+playwright-report/
+playwright/.cache/
+junit.xml
+test-report.xml
+coverage-report-baseline/*
+coverage-report-pr/*
+index.html
+
+# Dependency management directories/files
+node_modules/
+yarn-error.log
+package-lock.json
+yarn.lock
+.yalc
+yalc.lock
+.husky
